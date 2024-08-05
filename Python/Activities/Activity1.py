@@ -1,0 +1,10 @@
+name = input("Enter name:")
+age = input("Enter your current age:")
+print(name)
+print(age)
+yearsToPass = 100-int(age)
+centuryYear = 2023+yearsToPass
+print(yearsToPass)
+print(centuryYear)
+print(name + "will turn 100 in year " + str(centuryYear))
+print(name + "will turn 100 in year " + format(centuryYear))
